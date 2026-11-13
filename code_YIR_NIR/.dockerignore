@@ -1,0 +1,13 @@
+# Frontend build context (корень monorepo)
+node_modules
+**/node_modules
+**/dist
+.git
+**/.git
+.cursor
+.agent
+backend
+*.md
+**/*.test.ts
+**/*.test.tsx
+**/testdata

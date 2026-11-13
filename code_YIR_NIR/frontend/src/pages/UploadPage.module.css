@@ -1,0 +1,73 @@
+.page {
+  max-width: 32rem;
+}
+
+.title {
+  margin: 0 0 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.lead {
+  margin: 0 0 1.25rem;
+  color: #64748b;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.code {
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.25rem;
+  background: #e2e8f0;
+  font-size: 0.85em;
+}
+
+.status {
+  margin: 1rem 0 0;
+  padding: 0.65rem 0.85rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  color: #334155;
+}
+
+.statusError {
+  composes: status;
+  border-color: #fecaca;
+  background: #fef2f2;
+  color: #b91c1c;
+}
+
+.graphSummary {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+}
+
+.graphTitle {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #166534;
+}
+
+.graphStats {
+  margin: 0;
+  padding-left: 1.25rem;
+  font-size: 0.875rem;
+  color: #14532d;
+}
+
+.graphStats li + li {
+  margin-top: 0.25rem;
+}
+
+.graphHint {
+  margin: 0.75rem 0 0;
+  font-size: 0.875rem;
+  color: #15803d;
+}
